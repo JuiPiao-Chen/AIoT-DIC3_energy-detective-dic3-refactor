@@ -1,0 +1,40 @@
+schema: spec-driven
+
+context: |
+  所有 OpenSpec 產出一律以繁體中文撰寫；技術名詞、工具名與欄位名保留英文。
+  本專題為「物聯網數據分析與應用」第25組期末專題，目前為 Proposal 階段：程式與實驗尚未實作，
+  不得填入或暗示任何實測結果、準確率、節電量或設備故障判定。
+  資料來源固定為 Building Data Genome 2（BDG2）raw electricity、weather、metadata 的歷史重播。
+  LLM 只負責需求解析、受限規劃與報告文字；所有數值由 Python 工具計算並以 evidence_id 回連。
+  原始系統設計與研究來源在組內 repo：https://github.com/benson103081/energy-detective-agent（DESIGN.md、research/）。
+
+# Project context (optional)
+# Add only constraints that should guide OpenSpec artifacts and workflows.
+# Include constraints an agent cannot infer by reading the code.
+# Keep general project documentation and discoverable codebase facts out.
+# Example:
+#   context: |
+#     Designs and tasks must cover Windows, macOS, and Linux
+#     Write all artifacts in Spanish
+
+# Per-artifact rules (optional)
+# Add custom rules for specific artifacts.
+# Example:
+#   rules:
+#     proposal:
+#       - Keep proposals under 500 words
+#       - Always state what is out of scope
+#     tasks:
+#       - Break tasks into chunks of max 2 hours
+
+# Per-operation guidance (optional)
+# Add advisory guidance for how apply and archive work should be conducted.
+# This is separate from artifact rules above.
+# Example:
+#   operations:
+#     apply:
+#       guidance:
+#         - Keep test summaries concise
+#     archive:
+#       guidance:
+#         - Summarize the archive outcome before finishing
